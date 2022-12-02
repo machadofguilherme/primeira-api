@@ -1,11 +1,13 @@
 {
   "name": "soccer-team-manager",
   "version": "1.0.0",
-  "description": "First API",
+  "description": "Primeira API",
   "main": "index.js",
   "scripts": {
     "test": "",
-    "start": "node ."
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json ."
   },
   "keywords": [
     "api"
